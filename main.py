@@ -7,12 +7,13 @@ total_exp = 0
 
 def level_curve(level):
     exp_needed = pow(level,1.5) + (level * 100)
-    #print(exp_needed)
+    print(exp_needed)
     return exp_needed
 
-def level_up():
+def level_up(many_levels):
     global level
-    level += 1
+
+    level += many_levels
     print(level)
     return level
 
@@ -27,6 +28,6 @@ def total_exp_needed():
     print(total_exp)
 
 
-level_curve(level)
-level_up()
+#level_curve(level)
+level_up(3)
 total_exp_needed()
