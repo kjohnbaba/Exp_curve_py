@@ -13,7 +13,7 @@ def level_curve(level):
 def level_up(many_levels):
     global level
     level += many_levels
-    print(level)
+    #print(level)
     return level
 
 
