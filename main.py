@@ -27,6 +27,8 @@ def total_exp_needed():
     print(total_exp)
 
 
-#level_curve(level)
-level_up(3)
-total_exp_needed()
+#level_curve(level)        # Insert level number X to see the required exp needed for next level from that.
+
+level_up(3)                # Level up by X numbers at once, used to test total xp needed for that level below.
+
+total_exp_needed()         # Adds up exp per level of all levels up to current global level set by that level_up(x) above.
